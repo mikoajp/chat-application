@@ -1,10 +1,11 @@
 <script setup>
 import GuestLayout from '@/Layouts/GuestLayout.vue';
-import InputError from '@/Components/InputError.vue';
-import InputLabel from '@/Components/InputLabel.vue';
-import PrimaryButton from '@/Components/PrimaryButton.vue';
-import TextInput from '@/Components/TextInput.vue';
+
 import { Head, useForm } from '@inertiajs/vue3';
+import InputLabel from "@/components/InputLabel.vue";
+import TextInput from "@/components/TextInput.vue";
+import InputError from "@/components/InputError.vue";
+import PrimaryButton from "@/components/PrimaryButton.vue";
 
 const props = defineProps({
     email: {
