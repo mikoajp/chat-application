@@ -1,5 +1,4 @@
 <script setup>
-
 import { Head, useForm } from '@inertiajs/vue3';
 import GuestLayout from "@/Layouts/GuestLayout.vue";
 import InputLabel from "@/components/InputLabel.vue";
